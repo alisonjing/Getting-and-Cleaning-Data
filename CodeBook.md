@@ -47,4 +47,4 @@ Assign the column names **trainSubjects** for subject_train.txt;
 Labels the dataset with "Subject", "Actvity_ID" and "Activity_Label", then use melt() to format the data.
 #### 5. Create a second independently tidy set with the average of each variable for each activity and subject.
 Use dcast() function to reshape the data frame with the mean function applied and assign the name **tidy_data**, 
-Finally we create a separate tidy dataset using write.table() function and row.names=FALSE attribute 
+Finally we create a separate tidy dataset using **write.table()** function and **row.names=FALSE** attribute 
