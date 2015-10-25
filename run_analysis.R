@@ -48,6 +48,7 @@ featureSelected.names = gsub('-mean', 'Mean', featureSelected.names)
 featureSelected.names = gsub('-std', 'std', featureSelected.names)
 featureSelected.names <- gsub('[-()]', '', featureSelected.names)
 
+# 3) Use descriptive activity names to name the activities in the data set
 # Load the datasets from the file
 trainSubjects <- read.table("UCI HAR Dataset/train/subject_train.txt")
 trainActivities <- read.table("UCI HAR Dataset/train/y_train.txt")
@@ -66,7 +67,7 @@ test <-cbind(testSubjects, testActivities, xtest)
 # Merge both the train dataset and test dataset into a final one 
 finalData <- rbind(train, test)
 
-# label the dataset
+# 4) Appropriately label the data set with descriptive variable names
 labels<-c("Subject", "Activity_ID","Activity_Label")
 data_labels = setdiff(colnames(data), labels)
 
