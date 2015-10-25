@@ -42,8 +42,9 @@ Column names are first assigned before mergeing.
 Subset the merged data by first creating a logical vector that contains TRUE values for the id, mean and standard deviation columns, and FALSE to other columns.
 #### 3. Uses descriptive activity names to name the activities in the data set
 Assign the column names **trainSubjects** for subject_train.txt; 
-**trainActivities** for y_train.txt, and **xtrain for** x_train.txt, merge them for a final train dataset. Assign **testSubjects** for sub_train.txt; **testActivities** for y_test.txt and **xtest** for x_test.txt. Merge the latter three for a final test dataset. Eventually merge train dataset and test dataset into a whole *finalData* set using cbind() function.
-
+**trainActivities** for y_train.txt, and **xtrain for** x_train.txt, merge them for a final train dataset. Assign **testSubjects** for sub_train.txt; **testActivities** for y_test.txt and **xtest** for x_test.txt. Merge the latter three for a final test dataset. Eventually merge train dataset and test dataset into a final dataset using cbind() function.
 #### 4. Appropriately labels the data set with descriptive variable names
+Labels the dataset with "Subject", "Actvity_ID" and "Activity_Label", then use melt() to format the data.
 #### 5. Create a second independently tidy set with the average of each variable for each activity and subject.
-
+Use dcast() function to reshape the data frame with the mean function applied and assign the name **tidy_data**, 
+Finally we create a separate tidy dataset using write.table() function and row.names=FALSE attribute 
