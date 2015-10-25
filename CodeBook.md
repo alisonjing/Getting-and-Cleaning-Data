@@ -38,4 +38,10 @@ A set of 8 text files from the data folder are read:
 -  **x_test.txt** , 
 -  **y_test.txt**
 
+Column names are first assigned before mergeing.
+
+#### 2. Extracts only the meansurements on the mean and standard deviation for each measurement.
+#### 3. Uses descri[tive activity names to name the activities in the data set
+#### 4. Appropriately labels the data set with descriptive variable names
+#### 5. Create a second independently tidy set with the average of each variable for each activity and subject.
 
