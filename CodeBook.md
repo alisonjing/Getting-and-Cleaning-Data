@@ -25,3 +25,17 @@ For each record in the dataset it is provided:
 - Its activity label.
 - An identifier of the subject who carried out the experiment.
 
+### Project Procedures:
+a R script called run_analysis is created with the following 5 steps:
+#### 1. Merge the traning and the test sets to create one data set.
+A set of 8 text files from the data folder are read:  
+-  **features.txt**, 
+-  **activity_labels.txt**,  
+-  **subject_train.txt**,  
+-  **x_train.txt**,  
+-  **y_train.txt**
+-  **subject_test.txt**, 
+-  **x_test.txt** , 
+-  **y_test.txt**
+
+
