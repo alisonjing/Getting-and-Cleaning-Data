@@ -25,4 +25,4 @@ You should create one R script called **run_analysis.R** that does the following
 
 ### Additional Information
 For further information regarding this dataset, please visit [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
-Detailed description regarding the cleanning data project is also contained in the [**CodeBook.md**](https://github.com/lynnshahuang/Getting-and-Cleaning-Data/blob/master/CodeBook.md)
+Detailed description regarding the Getting and Cleaning data project is also contained in the [**CodeBook.md**](https://github.com/lynnshahuang/Getting-and-Cleaning-Data/blob/master/CodeBook.md)
