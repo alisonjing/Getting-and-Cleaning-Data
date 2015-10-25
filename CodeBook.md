@@ -1,7 +1,5 @@
 ## Getting and Cleaning Data Course Project CodeBook
 
-October 24, 2015
-
 Lynnsha Jing Huang
 
 ### Summary
@@ -41,6 +39,7 @@ A set of 8 text files from the data folder are read:
 Column names are first assigned before mergeing.
 
 #### 2. Extracts only the meansurements on the mean and standard deviation for each measurement.
+Subset the merged by first creating a logical vector that contains TRUE values for the id, mean and standard deviation columns and FALSE to other columns.
 #### 3. Uses descri[tive activity names to name the activities in the data set
 #### 4. Appropriately labels the data set with descriptive variable names
 #### 5. Create a second independently tidy set with the average of each variable for each activity and subject.
