@@ -1,6 +1,5 @@
 ## Getting and Cleaning Data Course Project CodeBook
 
-Lynnsha Jing Huang
 
 ### Summary
 This Codebook is constructed to provide additional information of the Getting and Cleaning
